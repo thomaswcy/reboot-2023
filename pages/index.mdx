@@ -1,9 +1,44 @@
-import { Container } from 'theme-ui'
+import {
+  BaseStyles,
+  Badge,
+  Box,
+  Button,
+  Card,
+  Checkbox,
+  Container,
+  Flex,
+  Grid,
+  Heading,
+  Input,
+  Label,
+  Link,
+  NavLink,
+  Radio,
+  Select,
+  Slider,
+  Text,
+  Textarea
+} from 'theme-ui'
+import Head from 'next/head'
+import Meta from '@hackclub/meta'
 
-<Container>
-
-# Hello!
-
-You’re using the [Hack Club Theme Starter](https://github.com/hackclub/theme-starter).
-
+<Container mb={4} pt={4} bg="" variant="copy">
+  <Heading
+    variant="ultratitle"
+    sx={{
+      textTransform: 'uppercase',
+      pb: 4,
+      fontFamily: 'Space Grotesk',
+      color: '#fa4639',
+      WebkitTextFillColor:
+      '#fa4639' /* Will override color (regardless of order) */,
+      WebkitTextStrokeWidth: '2px',
+      WebkitTextStrokeColor: '#fa4639',
+      fontWeight: 'heavy',
+      textShadow: 'elevated',
+    }}
+   >
+      REBOOT
+    </Heading>
+    <Heading variant="subheadline">Aug 5–7, 2022, 175 hackers came together for SF’s largest high school hackathon since the pandemic.</Heading>
 </Container>
